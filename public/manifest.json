@@ -1,0 +1,32 @@
+{
+    "name": "Weather Update App",
+    "short_name": "Weather",
+    "start_url": "index.html" ,
+    "background_color": "#3498DB",
+    "theme_color": "#2F3BA2",
+    "icons": [
+                {
+                    "src": "/images/icon1.png",
+                    "sizes": "180x180",
+                    "type": "image/png"
+                },
+                {
+                    "src": "/images/icon3.png",
+                    "sizes": "512x512",
+                    "type": "image/png"
+                },
+                {
+                    "src": "/images/icon2.jpg",
+                    "sizes": "1000x780",
+                    "type": "image/png"
+                }
+    ],
+    "orientation": "portrait-primary",
+    "display": "standalone",
+    "dir": "ltr",
+    "lang": "en-US",
+    "description": "Describe my app",
+    "serviceworker": {
+        "src": "serviceWorker.js"
+    }
+}
